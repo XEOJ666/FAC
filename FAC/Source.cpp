@@ -3,8 +3,8 @@ void fact(int*);
 void getInt(int*);
 int main()
 {
-	int n;
-	int* pN = &n;
+	int n[10];
+	int* pN = n;
 	getInt(pN);
 	fact(pN);
 
